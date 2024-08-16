@@ -117,7 +117,9 @@ h1 {
     background-color: antiquewhite;
     border: solid 1.5px black;
     border-radius: 8px;
-    height: 50vh;
+    height: 48vh;
+    padding: 15px;
+    font-size: 1.2em;
 }
 
 @media (max-width: 1200px){
@@ -125,5 +127,14 @@ h1 {
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+    .leer{
+        width: 60%;
+    }
+    .ingresar{
+        width: 80%;
+    }
+    img{
+        width: 500%;
     }
 }
