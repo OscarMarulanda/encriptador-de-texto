@@ -1,9 +1,95 @@
-body{
-    background-color: #D8DFE8;
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root {
+    --color-primaria: #000000;
+    --color-secundaria: #241212;
+    --color-terciaria: #081694;
+    --color-hover: #272727;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
 }
 
-.todo{
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: var(--fuente-krona);
+    text-align: center;
+}
+
+.todo {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+
+}
+
+.logo {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+
+}
+
+.ingresar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 90%;
+    height: 50vh
+}
+
+#entrada{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.leer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.boton {
+      border: 2px solid var(--color-terciaria);
+      width:fit-content;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 10px 5px;
+      text-decoration: none;
+      color: var(--color-secundaria);
+      font-family: var(--fuente-montserrat);
+}
+
+.boton:hover{
+    background-color: var(--color-hover);
 }
