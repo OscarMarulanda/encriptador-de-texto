@@ -5,3 +5,10 @@ function encriptar(){
     resultado = document.getElementById("resultado");
     resultado.innerHTML = mod2
 }   
+
+function desencriptar(){
+    let original = document.getElementById("entrada").value;
+    let mod = original.replaceAll("ai", "a").replaceAll("enter", "e").replaceAll("imes", "i").replaceAll("ober", "o").replaceAll("ufat", "u");
+    resultado = document.getElementById("resultado");
+    resultado.innerHTML = mod;
+}
