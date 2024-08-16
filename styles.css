@@ -66,7 +66,7 @@ h1 {
     flex-direction: column;
     width: 30%;
     align-items: center;
-    justify-content: center;
+    gap: 40px;
 }
 
 .botones{
@@ -90,6 +90,27 @@ h1 {
       font-family: var(--fuente-montserrat);
 }
 
+.boton-copiar{
+    border: 2px solid var(--color-terciaria);
+      width:fit-content;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      padding: 10px 5px;
+      text-decoration: none;
+      color: var(--color-secundaria);
+      font-family: var(--fuente-montserrat);
+}
+
 .boton:hover{
     background-color: var(--color-hover);
+}
+
+#resultado{
+    width: 100%;
+    background-color: antiquewhite;
+    border: solid 1.5px black;
+    border-radius: 8px;
+    height: 50vh;
 }
