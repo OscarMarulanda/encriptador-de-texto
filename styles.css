@@ -1,0 +1,9 @@
+body{
+    background-color: #D8DFE8;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
