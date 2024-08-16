@@ -16,5 +16,5 @@ function desencriptar(){
 function copiar(){
     let texto = document.getElementById("resultado").innerHTML;
     navigator.clipboard.writeText(texto);
-    alert(texto)
+    alert("texto copiado: "+texto)
 }
