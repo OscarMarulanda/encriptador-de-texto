@@ -5,7 +5,7 @@
     --color-primaria: #000000;
     --color-secundaria: #241212;
     --color-terciaria: #081694;
-    --color-hover: #272727;
+    --color-hover: #0b7685;
 
     --fuente-krona: 'Krona One', sans-serif;
     --fuente-montserrat: 'Montserrat', sans-serif;
@@ -109,7 +109,7 @@ h1 {
       font-family: var(--fuente-montserrat);
 }
 
-.boton:hover{
+.boton:hover, .boton-copiar:hover{
     background-color: var(--color-hover);
 }
 
