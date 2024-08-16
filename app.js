@@ -12,3 +12,9 @@ function desencriptar(){
     resultado = document.getElementById("resultado");
     resultado.innerHTML = mod;
 }
+
+function copiar(){
+    let texto = document.getElementById("resultado").innerHTML;
+    navigator.clipboard.writeText(texto);
+    alert(texto)
+}
